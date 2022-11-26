@@ -119,7 +119,7 @@
 					</c:when>
 
 					<c:otherwise>
-						<div class="col-lg-4 col-md-6 text-center <%= product.getCategory()%> ">
+						<div class="col-lg-4 col-md-6 text-center float-left <%= product.getCategory()%> ">
 							<div class="single-product-item">
 								<div class="product-image">
 									<a href="#"><img src='./assets/img/food/<%= product.getFileName()%>' alt=""></a>

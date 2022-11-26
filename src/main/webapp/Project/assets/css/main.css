@@ -2775,3 +2775,9 @@ table.order-details tbody td {
 
 
 }
+
+.float-left{
+  float: left;
+  clear: both;
+
+}

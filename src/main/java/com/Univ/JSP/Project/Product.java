@@ -3,12 +3,15 @@ package com.Univ.JSP.Project;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.io.Serializable;
 
 @Getter
 @Setter
 public class Product implements Serializable {
     private static final long serializableUID= -42747005324343L;
+
 
     private String productId;
     private String productName;

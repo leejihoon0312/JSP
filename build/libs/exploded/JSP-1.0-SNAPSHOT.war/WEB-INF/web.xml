@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app >
+
+<!--    프로젝트 xml start -->
     <security-role>
         <role-name>user</role-name>
     </security-role>
@@ -26,7 +28,72 @@
             <form-error-page>/Project/login.jsp?error=1</form-error-page>
         </form-login-config>
     </login-config>
+<!--    프로젝트 xml end-->
 
+
+<!--    ch10 4 exercise-->
+<!--    <security-role>-->
+<!--        <role-name>role1</role-name>-->
+<!--    </security-role>-->
+<!--    <security-constraint>-->
+<!--        <web-resource-collection>-->
+<!--            <web-resource-name></web-resource-name>-->
+<!--            <url-pattern>/InClass/ch10/exercise/4_security.jsp</url-pattern>-->
+<!--            <http-method>GET</http-method>-->
+<!--        </web-resource-collection>-->
+<!--        <auth-constraint>-->
+<!--            <description></description>-->
+<!--            <role-name>admin</role-name>-->
+<!--        </auth-constraint>-->
+<!--    </security-constraint>-->
+<!--    <login-config>-->
+<!--        <auth-method>FORM</auth-method>-->
+<!--        <form-login-config>-->
+<!--            <form-login-page>/InClass/ch10/exercise/4_login.jsp</form-login-page>-->
+<!--            <form-error-page>/InClass/ch10/exercise/4_login-failed.jsp</form-error-page>-->
+<!--        </form-login-config>-->
+<!--    </login-config>-->
+<!--    ch10 4 exercise-->
+
+<!--    ch10 5 exercise-->
+<!--    <security-role>-->
+<!--        <description></description>-->
+<!--        <role-name>guest</role-name>-->
+<!--    </security-role>-->
+<!--    <security-constraint>-->
+<!--        <web-resource-collection>-->
+<!--            <web-resource-name></web-resource-name>-->
+<!--            <description></description>-->
+<!--            <url-pattern>/InClass/ch10/exercise/4_addBook.jsp</url-pattern>-->
+<!--        </web-resource-collection>-->
+<!--        <auth-constraint>-->
+<!--            <description>권한 관리자명</description>-->
+<!--            <role-name>guest</role-name>-->
+<!--        </auth-constraint>-->
+<!--    </security-constraint>-->
+<!--    <login-config>-->
+<!--        <auth-method>FORM</auth-method>-->
+<!--        <form-login-config>-->
+<!--            <form-login-page>/InClass/ch10/exercise/4_login.jsp</form-login-page>-->
+<!--            <form-error-page>/InClass/ch10/exercise/4_login-failed.jsp</form-error-page>-->
+<!--        </form-login-config>-->
+<!--    </login-config>-->
+<!--    ch10 5 exercise -->
+
+<!--    ch11 5번-->
+<!--    <erroe-page>-->
+<!--        <exception-code>500</exception-code>-->
+<!--        <location>/InClass/ch11/exercise/5_exception_error.jsp</location>-->
+<!--    </erroe-page>-->
+<!--    ch11 5번-->
+
+
+    <!--ch11 7번-->
+<!--    <error-page>-->
+<!--        <error-code>404</error-code>-->
+<!--        <location>/InClass/ch11/exercise/4_exceptionNoPage.jsp</location>-->
+<!--    </error-page>-->
+    <!--ch11 7번-->
 
 <!--    <security-role>-->
 <!--        <role-name>user</role-name>-->

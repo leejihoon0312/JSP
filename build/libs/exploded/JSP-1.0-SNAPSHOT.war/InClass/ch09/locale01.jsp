@@ -12,12 +12,14 @@
 		Locale locale = request.getLocale();
 		Date currentDate = new Date();
 		DateFormat dateFormat1 = DateFormat.getDateInstance(DateFormat.FULL, locale);
-		DateFormat dateFormat2 = DateFormat.getDateInstance(DateFormat.MEDIUM, locale);
+		DateFormat dateFormat2 = DateFormat.getDateInstance(DateFormat.SHORT, locale);
 		NumberFormat numberFormat1 = NumberFormat.getNumberInstance(locale);
 		NumberFormat numberFormat2 = NumberFormat.getCurrencyInstance(locale);
 		NumberFormat numberFormat3 = NumberFormat.getPercentInstance(locale);
+		//DateFormat timeInstance = DateFormat.getTimeInstance(DateFormat.FULL);
 
 	%>
+<%--	<p> 국가 : <%=timeInstance.format(currentDate)%>--%>
 	<p> 국가 : <%=locale.getDisplayCountry()%>
 	<p> 언어 : <%= locale.getLanguage()%>
 	<p> 코드 : <%= locale.getCountry()%>

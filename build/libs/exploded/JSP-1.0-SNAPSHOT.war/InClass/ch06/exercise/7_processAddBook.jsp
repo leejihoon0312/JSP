@@ -64,6 +64,6 @@
 
     dao.addBook(newBook);
 
-    response.sendRedirect("6_Book_Home.jsp");
+    response.sendRedirect("4_Book_Home.jsp");
 %>
 
