@@ -10,7 +10,7 @@
 
 <%@ include file="header.jsp"%>
 
-		<!-- breadcrumb-section -->
+		<!-- breadcrumb-sections -->
 		<div class="breadcrumb-section hero-bg">
 			<div class="container">
 				<div class="row">
