@@ -126,7 +126,10 @@
 표현문으로 그 값을 표현했습니다.
 
 - 디렉티브 태그 
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204092044-4f1f3a78-6862-4fe3-a4b2-7c67b16f5c70.png)
+
 
 ![image](https://user-images.githubusercontent.com/82079111/204092040-c0e10d1e-a8c7-4747-88c7-23d42f2e85c9.png)
 
@@ -137,6 +140,8 @@ page 태그를 통해 형식을 설정하고 taglib 태그를 통해 메시지 �
 include 태그를 통해 정적 리소스를 불러왔습니다.  
 
 - 액션 태그
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204092037-163a3513-b17f-4f0d-a2f9-c54322294286.png)
 
 
@@ -145,6 +150,8 @@ useBean 액션태그를 통해 사용할 자바 파일을 불러오고
 setProperty 액션태그를 통해 속성값을 설정하여 현재 지역을 불러왔습니다.
 
 - 내장 객체 
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204092033-230a6cde-e47f-4557-8150-913e34bec1ae.png)
 
 
@@ -163,6 +170,8 @@ response 내장객체를 통해 상품목록 페이지로 리다이렉션을 진
 
 
 - 폼 태그
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204092031-335f5a34-67b2-4345-8c12-5a730df9b4d2.png)
 
 
@@ -171,6 +180,8 @@ form을 통해 폼 양식을 만들고 input을 통해 값을 넣었습니다.
 
 
 - 파일 업로드 
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204092026-48ac8b90-9cda-4f0c-8887-f61283903e8d.png)
 
 
@@ -181,7 +192,10 @@ multipartRequest 객체를 이용해 사진, 데이터를 저장했습니다.
 
 
 - 유효성 검사
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204092015-da14ab5a-243e-44d1-a3c6-b5ae93c102d0.png)
+
 
 ![image](https://user-images.githubusercontent.com/82079111/204092014-45c681ce-654c-4475-82ba-c6e0a91bda08.png)
 
@@ -200,7 +214,10 @@ multipartRequest 객체를 이용해 사진, 데이터를 저장했습니다.
 
 
 - 다국어 처리
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204092009-185d2ff1-1f32-4d1a-9e67-3dc7fb040f53.png)
+
 
 ![image](https://user-images.githubusercontent.com/82079111/204092008-c715e904-9ab4-4724-9919-43fb44a4822c.png)
 
@@ -217,6 +234,8 @@ multipartRequest 객체를 이용해 사진, 데이터를 저장했습니다.
 
 
 - 시큐리티
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204092001-3c4fcfa7-eb92-47af-88cb-e575a6a640f8.png)
 
 
@@ -225,7 +244,10 @@ multipartRequest 객체를 이용해 사진, 데이터를 저장했습니다.
 인증방식은 폼을 이용해 커스텀한 로그인 페이지를 사용하도록 했습니다.
 
 - 예외처리
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204091995-a222ec50-6f14-442b-a142-0691385bf3a2.png)
+
 
 ![image](https://user-images.githubusercontent.com/82079111/204091987-0b7cfae4-6007-4449-a2b7-71a1a30a5b90.png)
 
@@ -235,12 +257,16 @@ multipartRequest 객체를 이용해 사진, 데이터를 저장했습니다.
 
 
 - 세션
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204091983-18854b60-bddf-44ab-afdd-0c8802c66a10.png)
 
 
 상품을 불러오는 과정에서 데이터베이스로부터 값을 꺼내 세션에 담아 보여줍니다. 
 
 - 쿠키
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204091980-7ed7886e-92b3-49d0-bfc5-1854ff42ee0f.png)
 
 
@@ -257,6 +283,8 @@ multipartRequest 객체를 이용해 사진, 데이터를 저장했습니다.
 
 
 - 데이터베이스와 JSP 연동
+
+
 ![image](https://user-images.githubusercontent.com/82079111/204091975-a6b03c7d-70c9-4f1b-a5da-79e9b829e398.png)
 
 
