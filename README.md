@@ -1,6 +1,7 @@
 전체 기능 작동방법 
 
 - 홈 화면
+
 ![image](https://user-images.githubusercontent.com/82079111/204091813-a0bd05b0-a487-4cdb-81cf-cfe9cf902ad2.png)
 
 
